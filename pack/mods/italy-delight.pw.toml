@@ -1,0 +1,13 @@
+name = "Italy Delight"
+filename = "italydelight-1.0.2-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3rDfn1ja/versions/nryOXMiy/italydelight-1.0.2-1.20.1.jar"
+hash-format = "sha1"
+hash = "865b5aaa6c014a4e08e1fd05700e64485c0d2e21"
+
+[update]
+[update.modrinth]
+mod-id = "3rDfn1ja"
+version = "nryOXMiy"

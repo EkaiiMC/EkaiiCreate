@@ -1,0 +1,13 @@
+name = "EkaiiCreate"
+author = "EllipsiaLePoulet"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "1144ed5423bac78034e251fa72f1356deb5f6515ab258c6d707784d03c9426ad"
+
+[versions]
+forge = "47.3.10"
+minecraft = "1.20.1"

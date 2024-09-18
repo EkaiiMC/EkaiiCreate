@@ -1,0 +1,13 @@
+name = "rbasamoyai's Betsy Ross"
+filename = "betsyross-2.0.1+mc.1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QHsVGyjJ/versions/jq6hmgua/betsyross-2.0.1%2Bmc.1.20.1-forge.jar"
+hash-format = "sha1"
+hash = "5fccdeaeb05aeefd6761f3b12e329f811989d971"
+
+[update]
+[update.modrinth]
+mod-id = "QHsVGyjJ"
+version = "jq6hmgua"

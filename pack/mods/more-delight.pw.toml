@@ -1,0 +1,13 @@
+name = "More Delight"
+filename = "moredelight-24.09.10-1.20-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/znHQQtuU/versions/jR5ft1qh/moredelight-24.09.10-1.20-forge.jar"
+hash-format = "sha1"
+hash = "ac9c601848cfa127abe2e7f131615a97a926a186"
+
+[update]
+[update.modrinth]
+mod-id = "znHQQtuU"
+version = "jR5ft1qh"

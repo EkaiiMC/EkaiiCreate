@@ -1,0 +1,48 @@
+name: Build modpack
+on:
+  push:
+    branches:
+      - main
+      - dev/**
+jobs:
+  modpack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Git Repository
+        uses: actions/checkout@v4
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 1.22.x
+      - name: Configure Git User Details
+        run: |
+          git config --global user.name "actions@github.com"
+          git config --global user.email "GitHub Actions"
+      - name: Read TOML
+        uses: SebRollen/toml-action@v1.2.0
+        id: read_toml
+        with:
+          file: pack/pack.toml
+          field: version
+      - name: Set Version
+        run: echo version=${{ steps.read_toml.outputs.value }} >> $GITHUB_ENV
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+      - name: Generate .mrpack
+        run: |
+          cd pack/
+          packwiz modrinth export -o EkaiiCreate-v${{ env.version }}-modrinth.mrpack
+      - name: Upload .mrpack
+        uses: actions/upload-artifact@v2
+        with:
+          name: EkaiiCreate-v${{ env.version }}-modrinth.mrpack
+          path: pack/*.mrpack
+      - name: Publish (tag)
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          automatic_release_tag: v${{ env.version }}
+          title: EkaiiCreate v${{ env.version }}
+          prerelease: false
+          files: |
+            pack/*.mrpack
