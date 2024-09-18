@@ -33,7 +33,7 @@ jobs:
           cd pack/
           packwiz modrinth export -o EkaiiCreate-v${{ env.version }}-modrinth.mrpack
       - name: Upload .mrpack
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: EkaiiCreate-v${{ env.version }}-modrinth.mrpack
           path: pack/*.mrpack
