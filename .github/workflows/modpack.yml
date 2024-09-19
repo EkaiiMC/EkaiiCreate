@@ -30,11 +30,11 @@ jobs:
       - name: Generate .mrpack
         run: |
           cd pack/
-          packwiz modrinth export -o EkaiiCreate-v${{ env.version }}-modrinth.mrpack
+          packwiz modrinth export -o EkaiiCreate-v${{ env.version }}.mrpack
       - name: Upload .mrpack
         uses: actions/upload-artifact@v4
         with:
-          name: EkaiiCreate-v${{ env.version }}-modrinth.mrpack
+          name: EkaiiCreate-v${{ env.version }}.mrpack
           path: pack/*.mrpack
       - name: Publish (tag)
         uses: marvinpinto/action-automatic-releases@latest
