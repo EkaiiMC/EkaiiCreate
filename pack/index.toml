@@ -26,7 +26,7 @@ hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "9dd105eb404830a866f936672179caba237f174c21bdc31c7756442339241131"
+hash = "4d70b4d40173e8dbba26c1c6e10bc16c40187cf55f21f2973230035a7328bc94"
 
 [[files]]
 file = "config/ambientsounds-client.json"
@@ -162,7 +162,7 @@ hash = "a053c7647937df86a050d1d2d5e2e42dae07b96af4a1e799c5c917e28456b15d"
 
 [[files]]
 file = "config/bluemap/core.conf"
-hash = "c95985b992d7f37b06560d50d3da10314ef41c10a55b867f3d045db7f5851867"
+hash = "66a420808fbba81f9b995e869dbadd5d214dbd7cd8c3bca3bf1dfea6ab1c706d"
 
 [[files]]
 file = "config/bluemap/maps/world.conf"
@@ -194,7 +194,7 @@ hash = "eb7fbbf671c247286fd9d3c52a43142da7e65dfb53c08163e0742b2979f3ca24"
 
 [[files]]
 file = "config/bluemap/webserver.conf"
-hash = "420b13227864623ff9e5f200ebba4c1a10f05a4ca40539dbefdfc9e23cdf78f2"
+hash = "5a0f7ab3c24a34c7c654a4b7cfdb151b79306da29c606db6c8fbb190943f82c4"
 
 [[files]]
 file = "config/bstats.json"
@@ -238,7 +238,7 @@ hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
 
 [[files]]
 file = "config/create-track-map.json"
-hash = "edd44548fb8d423d67083a4bed6c12c8bd87e56f927141f58061d1ef804f670f"
+hash = "f2ba133170ed6dcee19b601fd1208ee1f54a38340fe8d44f2990432b5e6d994c"
 
 [[files]]
 file = "config/create_central_kitchen-common.toml"
@@ -314,7 +314,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
+hash = "21c986723a318a4a5264dc0c4daa8021b7af94b2a2c9dbf8c71191df79e1dfe3"
 
 [[files]]
 file = "config/entityculling.json"
@@ -527,6 +527,10 @@ hash = "ff4d49e8887003f08adb512551c17ad62cbc8734fe20103da590a92e5675c9e9"
 [[files]]
 file = "config/lithium.properties"
 hash = "b87ee52fdc722ce1497e7ff55fdbd0660fc9df40c8f2f8167465cab55a388f0d"
+
+[[files]]
+file = "config/lmft.json"
+hash = "2a2ee19297afe3fc512f5cbe639349847f3e7a74616f282d24a179a17f4559ed"
 
 [[files]]
 file = "config/midnightlib.json"
@@ -789,7 +793,11 @@ file = "kubejs/config/common.properties"
 hash = "119d96297fe6da12948b5033a1e76446651efddf6afcbf741d9c6f2126b6a9c4"
 
 [[files]]
-file = "kubejs/server_scripts/recipe.js"
+file = "kubejs/server_scripts/netherrack-tuff.js"
+hash = "a381e0f356ea47ec29aa757b623a9c993a06d62dde7a48955c041ba2cdfacea6"
+
+[[files]]
+file = "kubejs/server_scripts/numismatics.js"
 hash = "82452fb5a8d37e6a05dbf38b4bb21862a3568f0601ffc53c827388e83eea27d7"
 
 [[files]]
@@ -863,7 +871,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-end-cities-for-betterend.pw.toml"
-hash = "5606192f6df775e4c604d8b0f5f2c34edbaa3046de38203c88cfc197bfd7c8a2"
+hash = "bee63c46a00f72ac82943f0bfe35c8f6a7f12347884974bd90b55e28ecec5d80"
 metafile = true
 
 [[files]]
@@ -884,6 +892,11 @@ metafile = true
 [[files]]
 file = "mods/bluemap.pw.toml"
 hash = "a825bce2890f42c1acfb1965f2309b6e3f12e73364f632e577ef2ca1e390db2c"
+metafile = true
+
+[[files]]
+file = "mods/caelus.pw.toml"
+hash = "eaa144428b42dedd12beea31db366ca686a621c9945d45a35494dca25846fc63"
 metafile = true
 
 [[files]]
@@ -1077,6 +1090,11 @@ hash = "1dd4a5385d726491647f47cd42760b0a322a8d3d82728bbbe3a45efde9b4e161"
 metafile = true
 
 [[files]]
+file = "mods/curios.pw.toml"
+hash = "ef744ef9850c42a100e7ba88527b7bc486079f43c0e5234162df25391a2197a3"
+metafile = true
+
+[[files]]
 file = "mods/dcintegration.pw.toml"
 hash = "ec5b452599201804f40e6a9f4549849065b8428d5b046bd0638f9897e1e4b72c"
 metafile = true
@@ -1093,7 +1111,7 @@ metafile = true
 
 [[files]]
 file = "mods/double-doors.pw.toml"
-hash = "0bfa93d487f91b526d83622245091b3fec1d27c1b5b241b75bb26ea8e04806a8"
+hash = "0706d481fc6462ca2739b5284e9d60518b5c424dda2a61836d45f68faacbba0a"
 metafile = true
 
 [[files]]
@@ -1213,7 +1231,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "5391a9b1e34b3603f6a862e32f63e8d07871c618df1682bc4e65e6790dbe5d22"
+hash = "6e37a782378bd8eee4421cebc8c67fab6b6185e4cf2398feb2e0bed967cf296b"
 metafile = true
 
 [[files]]
@@ -1443,7 +1461,7 @@ metafile = true
 
 [[files]]
 file = "mods/terralith.pw.toml"
-hash = "e4ec2a3489da9a8cf2b16abfbca6d62ef3dd0c6112d16d939641c16c5a796bea"
+hash = "bd294726639dc8e4be6ea5c8c69ee6691a5d9554246b6ee5f5c23dc21d4f4b52"
 metafile = true
 
 [[files]]
@@ -1453,7 +1471,7 @@ metafile = true
 
 [[files]]
 file = "mods/tree-harvester.pw.toml"
-hash = "2f3085d8ca835f6afecfd6978e5b20f0bd9beeb12a0902b5c01e12f8afa1ae96"
+hash = "c50e0b90082b477650b30a85fed5973efeb26bfc2a16928224b4ad712229b154"
 metafile = true
 
 [[files]]
@@ -1488,57 +1506,57 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-better-desert-temples.pw.toml"
-hash = "c2e3390b5330508e73c0e0d42067dcbdb1137e73ce7ec4324288fd3b7ed2d50d"
+hash = "527ebe2b35c633421d2c457d9905302f156f27039314a370793fe2a0af9c4fa2"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
-hash = "647dc25daba3bac1f6e93e3abedaa80d00c83812595e0cf42df5ae966058e84f"
+hash = "0444094d157acdadfa19d60ffdd2087e7f18dfdd6b0f4d6c53326e945fc6e82b"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-end-island.pw.toml"
-hash = "7e9f9d03e9777945478efb8eedc7e3b23d8986c6f3275cba4e3d6ffb65adb13e"
+hash = "8937436c96ea1f9e41bd0271264570ec6c43d97e793c4fb10b5f118de962f848"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-jungle-temples.pw.toml"
-hash = "2b4c452b8e077743406460087ecba4a8e7b93d581308c4879dda8a35ed6e86c4"
+hash = "9f9d5441ef919abd21a86300423f3fa3bf7e0f81535ee7a5305af61c76a901b5"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-mineshafts.pw.toml"
-hash = "4353ffe53f1dcf34093430446f30629d5f23ae10839dd766ea4438806d915a78"
+hash = "53a803fe2a309a5f2d67ddd2683b202127ecf5ffafe416e3a16d1127003495f7"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-nether-fortresses.pw.toml"
-hash = "4143741c21217772c5f568cef36ec16861f9895d193f5eff3c674a6032fac4f1"
+hash = "a113736033c19e4033cb7bbdd2e10bdec70f13ddeda73883a559618000ac9513"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-ocean-monuments.pw.toml"
-hash = "9ad77d663f0a287c2a902d71ccf7221f4ab49a29946743432e4ccb7506e86c21"
+hash = "4ade6c70a153486ae39432b3a49e369e69a00131938ae71ef0a58e92715fdfc0"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
-hash = "584b719bb17c63ca4bb1432f45af46a17e1bce6307565f13b9c0298bb80f6945"
+hash = "0bf0da1a80915da23e6b4d63803ca54cfb05e5750f31da9db02c915ff18a3ea4"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
-hash = "7deb34098e5722d3b024231e937c66984e5874f653f0cfc95482f22bbc18f4d4"
+hash = "19bc0f007aa261bc1d9e78a2e2330cdb75e2dbb5c01ad0629bec87e7cbfc9f89"
 metafile = true
 
 [[files]]
 file = "mods/yungs-bridges.pw.toml"
-hash = "d92d38a261d5c8449b33c114ba3391567c5aca8853301928746de2386348b50b"
+hash = "950475af53112121ff37fb9627973e9b29f824d584ef68123065119a0dab275e"
 metafile = true
 
 [[files]]
 file = "mods/yungs-extras.pw.toml"
-hash = "eaa9678b7f6aee59266500c8d3fec01f7bce7c8fe5a0517747e9676cb0d2f1fc"
+hash = "320c9cf7ee561d4d8d2ce26fbd64f9d11bc977024d627ae170bed2e0facbed35"
 metafile = true
 
 [[files]]

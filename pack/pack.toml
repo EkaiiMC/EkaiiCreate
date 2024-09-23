@@ -1,12 +1,12 @@
 name = "EkaiiCreate"
 author = "EllipsiaLePoulet"
-version = "1.0.3"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "77c0e1617ecf3fe2c4e553d15b0c6b91ed74ee74fcf71d4a9e55f8be5cbf9e10"
+hash = "f6958b0680cc1f584982c20c0624e0f580cb56c6b93f9e796b3977c50ca5be65"
 
 [versions]
 forge = "47.3.10"
