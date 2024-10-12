@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","black_icons","file/Default-Dark-Mode-1.20-2023.7.0.zip","file/Create_Darkmode_v0.0.2.zip","create_central_kitchen:create_styled","file/Create-Energistics-1.1.1-mc1.20.1.zip","file/Create Computers 1.2.1 - 1.20.1 Resource Pack Only.zip","file/DefaultPBR.zip","file/Create-LabPBR-v12.zip"]
+incompatibleResourcePacks:["file/Create_Darkmode_v0.0.2.zip","create_central_kitchen:create_styled","file/Create-LabPBR-v12.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
