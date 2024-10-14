@@ -567,6 +567,11 @@ hash = "15b1a9e5e39e904e4a668da8a048485fac5fd7cd259fc6999aedbf05fb6c3fe4"
 metafile = true
 
 [[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "2143dc055ae837c6a4de5da8dd228cacf73dbe872a5c603a28f5e623e22ea5e6"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "8e14da55aeb7de38890634541be64c860d2832d64b8c0e7a200781fb4a69e8cf"
 metafile = true
@@ -599,6 +604,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "e8898a30f64231c01586d60f642bda223a03c0ba7edd107fbbc21c21fe09a9c0"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "3040dc0e422d8ffa85d44d4be9466fe7eebfdf631cb998491b30c5c931cc75fd"
 metafile = true
 
 [[files]]
